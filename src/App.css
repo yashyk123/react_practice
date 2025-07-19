@@ -1,31 +1,15 @@
-/* *{
-  padding: 0;
-  margin: 0;
-} */
-/* .main-body{
-  display: flex; */
-  /* flex-direction: row; */
-  /* width: 100%;
-  height: 100vh;
-  background-color: coral;
-}
-.li{
-  width: 400px;
-  padding: 20px;
-  background-color: aquamarine;
-  margin-bottom: 10px;
-  list-style: none;
-} 
+/* App.css - Minimal global styles for the main App component */
 
-/* 12-11-24 */
-.maindiv
-{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.App {
+  /* Ensure full height and remove any default margins/padding */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove any default styling that might interfere with our weather app */
+* {
+  box-sizing: border-box;
 }
 
 
